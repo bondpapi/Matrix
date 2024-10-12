@@ -29,9 +29,13 @@ The Matrix Script Decoder is a Python program designed to decode a complex matri
 ## Input Format
 
 R C
+
 row1
+
 row2
+
 ...
+
 rowR
 
 # Example
