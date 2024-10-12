@@ -38,8 +38,8 @@ row2
 
 rowR
 
-# Example
-# Input:
+## Example
+## Input:
 7 3
 
 Tsi
