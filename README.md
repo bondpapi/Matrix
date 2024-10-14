@@ -5,57 +5,58 @@
 
 The Matrix Script Decoder is a Python program designed to decode a complex matrix script composed of alphanumeric characters, spaces, and symbols. The script reads the matrix column by column, extracting alphanumeric characters and replacing sequences of symbols or spaces between them with a single space for better readability.
 
-## Features
+### Features
 
 - Reads a matrix of strings defined by user input.
 - Decodes the matrix by reading it column-wise.
 - Cleans the output by removing unwanted symbols and spaces between alphanumeric characters.
 
-## Requirements
+### Requirements
 
 - Python 3.x
 - No additional libraries are required other than the standard library.
 
-## Usage
+### Usage
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/bondpapi/matrix.git
 
-   cd matrix
+   `cd matrix`
 
-   python matrix.py
+   `python matrix.py`
 
-## Input Format
+### Input Format
 
-R C
+`R C`
 
-row1
+`row1`
 
-row2
+`row2`
 
 ...
 
-rowR
+`rowR`
 
-## Example
-## Input:
-7 3
+### Example
+### Input:
 
-Tsi
+`7 3`
 
-h%x
+`Tsi`
 
-i #
+`h%x`
 
-sM
+`i #`
 
-$a
+`sM`
 
-#t%
+`$a`
 
-ir!
+`#t%`
 
-# Output:
+`ir!`
 
-This is Matrix
+### Output:
+
+`This is Matrix`
